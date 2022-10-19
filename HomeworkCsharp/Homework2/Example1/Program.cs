@@ -11,7 +11,7 @@ int number = int.Parse(numberStr);
 if (number >= 100 && number <= 999 || number <= -100 && number >= -999)
 {
     int result = Math.Abs ((number / 10) % 10);
-    Console.WriteLine($"Вторая цифра 3х значного числа {result}");
+    Console.WriteLine($"Вторая цифра 3х значного числа: {result}");
 }
 else
 {
