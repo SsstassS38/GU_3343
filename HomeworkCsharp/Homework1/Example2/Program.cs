@@ -4,9 +4,9 @@
 22 3 9 -> 22
 */
 Console.Write($"Введите три числа через ввод: ");
-String numberStr1 = Console.ReadLine();
-String numberStr2 = Console.ReadLine();
-String numberStr3 = Console.ReadLine();
+String numberStr1 = Console.ReadLine() ??"";
+String numberStr2 = Console.ReadLine() ??"";
+String numberStr3 = Console.ReadLine() ??"";
 int number1 = int.Parse(numberStr1);
 int number2 = int.Parse(numberStr2);
 int number3 = int.Parse(numberStr3);
