@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Desktop\\.nuget\\packages\\": {}
+    "C:\\Users\\Ирина\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hello Git\\GB 3343\\GU_3343\\HomeworkCsharp\\Homework1\\Example3\\Example3.csproj",
+      "projectUniqueName": "E:\\GB3343\\GU_3343\\Homework1_Csharp\\HomeworkCsharp\\Homework1\\Example3\\Example3.csproj",
       "projectName": "Example3",
-      "projectPath": "D:\\Hello Git\\GB 3343\\GU_3343\\HomeworkCsharp\\Homework1\\Example3\\Example3.csproj",
-      "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
-      "outputPath": "D:\\Hello Git\\GB 3343\\GU_3343\\HomeworkCsharp\\Homework1\\Example3\\obj\\",
+      "projectPath": "E:\\GB3343\\GU_3343\\Homework1_Csharp\\HomeworkCsharp\\Homework1\\Example3\\Example3.csproj",
+      "packagesPath": "C:\\Users\\Ирина\\.nuget\\packages\\",
+      "outputPath": "E:\\GB3343\\GU_3343\\Homework1_Csharp\\HomeworkCsharp\\Homework1\\Example3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Ирина\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
