@@ -10,4 +10,4 @@ int number2 = int.Parse(numberStr2);
 int max = 0;
 if(number1 > number2) max = number1;
 if(number1 < number2) max = number2;
-Console.WriteLine(max);
+Console.WriteLine($"большее число из двух введенных является {max}");

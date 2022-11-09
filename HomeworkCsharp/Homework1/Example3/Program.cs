@@ -6,7 +6,7 @@
 */
 
 Console.WriteLine("Введите число: ");
-string numberA = Console.ReadLine();
+string numberA = Console.ReadLine() ??"";
 int number = int.Parse(numberA);
 int result = (number % 2);
 
@@ -14,7 +14,7 @@ if(result == 0)
     {
         Console.WriteLine("число является четным ");
     }   
-if(result == 1)
+else
     {
         Console.WriteLine("число не четное ");
     };

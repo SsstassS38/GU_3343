@@ -4,7 +4,7 @@
 8 -> 2, 4, 6, 8
 */
 
-Console.WriteLine("Введите  любое число: ");
+Console.WriteLine("Введите любое число: ");
 string numberStr = Console.ReadLine();
 int number = int.Parse(numberStr);
 for(int i = 2; i <= number; i = i + 2)
