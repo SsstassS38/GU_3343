@@ -5,7 +5,7 @@
 32679 -> 6
 */
 Console.Write("введите любое целое число: ");
-string numberStr = Console.ReadLine();
+string numberStr = Console.ReadLine() ??"";
 int number = int.Parse(numberStr);
 
 if(number > 99)

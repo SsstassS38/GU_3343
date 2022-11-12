@@ -5,7 +5,7 @@
 */
 
 Console.WriteLine("Введите число: ");
-string numberStr = Console.ReadLine();
+string numberStr = Console.ReadLine() ??"";
 int number = int.Parse(numberStr);
 int sum = 0;
 

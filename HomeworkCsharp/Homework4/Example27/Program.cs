@@ -5,7 +5,7 @@
 */
 
 Console.WriteLine("Введите число N: ");
-String numberStrN = Console.ReadLine();
+String numberStrN = Console.ReadLine() ??"";
 int numberN = Convert.ToInt32(numberStrN);
 
 int SumNumber(int numberN){

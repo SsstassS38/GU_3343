@@ -3,8 +3,8 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
 */
 Console.WriteLine($"Введите два числа A и B");
-String numberStr1 = Console.ReadLine();
-String numberStr2 = Console.ReadLine();
+String numberStr1 = Console.ReadLine() ??"";
+String numberStr2 = Console.ReadLine() ??"";
 int number1 = int.Parse(numberStr1);
 int number2 = int.Parse(numberStr2);
 int max = 0;

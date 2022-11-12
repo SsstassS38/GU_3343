@@ -5,7 +5,7 @@
 */
 
 Console.WriteLine("Введите пятизначное число: ");
-String number = Console.ReadLine();
+String number = Console.ReadLine() ??"";
 int pall = number.Length;
 if (pall == 5)
 {

@@ -15,11 +15,11 @@ for(int i=1; i <= numberB; i++)
 }
 
 Console.Write("Введите число A: ");
-string numberStrA = Console.ReadLine();
+string numberStrA = Console.ReadLine() ??"";
 int numberA = int.Parse(numberStrA);
 
 Console.Write("Введите число B: ");
-string numberStrB = Console.ReadLine();
+string numberStrB = Console.ReadLine() ??"";
 int numberB = int.Parse(numberStrB);
 
 int exponentiation = Exponentiation(numberA, numberB);

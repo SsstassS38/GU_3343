@@ -5,7 +5,7 @@
 получить все 8 чисел за одно нажатие Enter от пользователя.подсказка: использовать метод Split();
 */
 Console.Write("Введите массив 8 чисел через запятую: ");
-string numberStr = Console.ReadLine();
+string numberStr = Console.ReadLine() ??"";
 string[] array = numberStr.Split();  
 Console.Write("[");
 for (int i = 0; i < array.Length-1; i++)
