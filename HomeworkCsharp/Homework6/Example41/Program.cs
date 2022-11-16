@@ -2,29 +2,14 @@
 //0, 7, 8, -2, -2 -> 2
 //1, -7, 567, 89, 223-> 3
 
-
-void PrintArray(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
+Console.Write("Введите элементы через пробел: ");
+int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+int count = 0;
+ for (int i = 0; i < arr.Length; i++){
+    if (arr[i] > 0)
     {
-        Console.Write($"{array[i]} ");
+        count++;
     }
-    Console.WriteLine();
 }
-
-int GetPositive(int[] array)
-{
-    int positiveSumm = 0;
-    
-    for (int i = 0; i < array.Length; i++)
-    {
-        if(array[i]>0)
-            positiveSumm+= array[i];
-    }  
-    return positiveSumm;
-}
-int[] array =;
-PrintArray(array);
-int positiveSumm = GetPositive(array);
-Console.WriteLine($"Сумма положительных чисел: {positiveSumm},");
+ Console.WriteLine($"Кол-во положительных чисел:: {count}");
 
