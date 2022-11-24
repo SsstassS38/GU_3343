@@ -33,7 +33,7 @@ int DiagonalSumm(int[,] array)
         int sum = 0;
         for (int i = 0; i < array.GetLength(0); i++)
         {
-         for (int j = 0; j < array.GetLength(1); j++)
+            for (int j = 0; j < array.GetLength(1); j++)
             {
                 if(i == j) sum = sum + array[i, j];
             }
@@ -48,8 +48,9 @@ Console.WriteLine("Введите размер n: ");
 int n = int.Parse(Console.ReadLine());
 int[,] array = InitArray(m,n);
 PrintArray(array);
+
 if(array.GetLength(0) != array.GetLength(1))
-    Console.WriteLine("Матирца не квадратная");
+    Console.WriteLine("Матрица не квадратная");
 else
-    Console.WriteLine($"сумма элементов гдавной диагонали равна: {DiagonalSumm(array)}");
+    Console.WriteLine($"сумма элементов главной диагонали равна: {DiagonalSumm(array)}");
 
